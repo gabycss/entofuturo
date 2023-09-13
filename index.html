@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Diseño y nuevos medios" />
+        <link href="style.css" rel="stylesheet" />
+        <title>&#128125; Entofuturo</title>
+        <!--
+        Esto es un comentario de HTML. No es necesario que lo borres.
+        Si arriba, dentro de <title></title>, quieres otro emoji, búscarlo en 
+        - https://www.w3schools.com/charsets/ref_emoji.asp
+        - https://www.w3schools.com/charsets/ref_emoji_smileys.asp
+        Usa la columna "Dec" y reemplaza solo el número, manteniendo el "&#" que le antecede.
+        -->
+    </head>
+    <body>
+
+        <main>
+            <h1>Entofuturo - Moscas</h1>
+            <p>Hola, en este sitio conocerás un ecosistema situado en 2123 que se desarrolla a partir de una convivencia sinérgica con las moscas y los humanos.</p>
+
+            <img style="width: 100%;height: 100%;" src="mosca.png">
+
+            <h1>*Importante</h1>
+
+            <p> Para comprender esta experiencia tenemos que recordar que las moscas son necesarias para la biodiversidad del planeta y nuestra convivencia con ellas tiene que ver también con cómo las percibimos y qué atributos asociamos a esta especie.</p><br>
+            <img style="width: 100%;height: 100%;" src="mapa.png">
+
+            <h1>Una mañana en <br>este ecosistema.</h1>
+            <p>Cuando me levanto es importante prepararme para el día, la consciencia corporal ha cambiado mi vida. Despierto y me relajo. Pareciera que es un hábito difícil de mantener, pero solo necesito 1 minuto cada mañana. <br><br><br>
+             * Ponte los audífonos, el antifaz y ponle play a la música para que pruebes la meditación "El jardín de moscas". </p> <br><br><br><br>
+
+            <center><video width="500" height="500" controls>
+                 <source src="meditacion.mp4" type="video/mp4">
+            </video></center><br><br><br><br>
+
+
+
+            <h1>El desayuno, <br> la energía a mi alrededor.</h1>
+            <p>En mi comunidad somos 30 personas y nos turnamos para hacer desayunos. Por suerte hoy no me toca a mí así que tomo un panqueque me siento en el piso y me lo como con las manos. A veces hay mucho ruido en la cocina, cuando tengo un mal día la verdad esto me estresa, pero en general disfruto mucho hablando con todos. Igual respetamos el silencio en general, pero los niños son super buenos para gritar y correr por todos lados en la mañana. </p> <br><br>
+            <br><br><br>
+            <center><img style="width:1000px;" src="desayuno.png"></center>
+            <br><br><br><br>
+
+
+
+            <h1>Un baño <br>comunitario.</h1>
+            <p>Lo último de mi rutina de mañana antes de irme a clases es bañarme y arreglarme. <br> Entro al baño y me encuentro a mis compañeros de u porque compartimos la hora de salida de la casa. El baño tiene una temperatura alta y eso a mí eso me relaja. Me meto a los baños con los demás y me tomo unos 10 minutos ahí. Me gusta jugar con las moscas e intento cuidar que no se caigan al agua. Este lugar es de relajo, de calor, de humedad y de convivencia.  <br><br><br>
+             * Puedes ver el limpiador que uso en la mesa. </p>
+
+          <center> <img style="width:300px;" src="limpiador.png"></center>
+
+        </main>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js" integrity="sha512-bcfltY+lNLlNxz38yBBm/HLaUB1gTV6I0e+fahbF9pS6roIdzUytozWdnFV8ZnM6cSAG5EbmO0ag0a/fLZSG4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script>
+            // Esto es una línea de comentario en JAVASCRIPT
+            var palabras = ["🤤", "🤦", "🤦", "🌋", "🌯", "🌷", "🍣", "🐇", "💕"];
+            
+            function setup() {
+                var palabra = random(palabras);
+                createA("page.html?data="+palabra, palabra).parent("next");
+                noCanvas();
+            }
+            /* 
+            Esto también es un comentario en JAVASCRIPT
+            Se usa así para varias líneas de comentario
+            */
+        </script>
+    </body>
+</html>
